@@ -1,0 +1,216 @@
+*{
+  margin: 0; 
+  padding: 0; 
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  color: white;
+}
+.container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(121, 149, 185, 0.5) , rgba(78, 69, 129, 0.5) ) , url(images/main4.jpg) no-repeat;
+    background-size: cover;
+}
+header{
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 75px;
+}
+.navbar{
+  display: flex;
+  /* border: 2px solid red; */
+  height: 100%;
+}
+.logo{
+  /* border: 2px solid yellow; */
+  width: 20%;
+  background: url(images/BAker.png) no-repeat;
+  background-position: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo a{
+  width: 37%;
+  height: 66%;
+  /* border: 2px solid green; */
+
+ 
+}
+.navbarul{
+  display: flex;
+  /* border: 2px solid purple; */
+  width: 80%;
+  justify-content: end;
+  align-items: center;
+  padding-right: 60px;
+}
+.navbarul li{
+  /* border: 2px solid green; */
+  font-size: 15px;
+  height: 30px;
+  margin: 0 13px;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+
+}
+.navbarul li::after{
+  content: "";
+  height: 4px;
+  background-color: rgb(194, 184, 52);
+  position: absolute;
+  width: 0%;
+  left: 0;
+  top: 18px;
+  border-radius: 4px;
+  bottom: 0;
+  transition: 0.3s all linear;
+}
+.navbarul li:hover::after{
+  width: 100%;
+}
+.content{
+  /* border: 2px solid red; */
+  width: 100%;
+  height: calc(600px - 75px);
+}
+.name{
+  /* border: 2px solid green; */
+  height: 55%;
+ 
+}
+.slogan , .hadding , .paragraph{
+  /* border: 2px solid yellow; */
+  text-align: center;
+ 
+}
+.slogan{
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-size: 20PX;
+  font-family: 'Karla', sans-serif;
+  
+}
+.hadding{
+  margin-top: 25px;
+  font-size: 35PX;
+  text-transform: uppercase;
+  font-family: 'Karla', sans-serif;
+}
+.paragraph{
+  margin-top: 20px;
+  text-align:center;
+  margin-left:250PX;
+  display: inline-block;
+  width: 60%;
+}
+.btn{
+  position: relative;
+  top: -35px;
+  height: 15%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn a{
+  cursor: default;
+  height: 100%;
+  /* border: 2px solid pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons{
+  cursor: pointer;
+  /* border: 2px solid red; */
+  width: 150px;
+  height: 55%;
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin: 0 25px;
+  outline: none;
+}
+
+#btn1{
+  background-color: rgb(194, 184, 52);
+  font-weight: bold;
+  border: none;
+  transition: 0.4S all linear;
+}
+#btn1:hover{
+  background: transparent;
+  color: rgb(194, 184, 52);
+  letter-spacing: 1px;
+}
+
+#btn2{
+  background: transparent;
+  border: 2px solid rgb(194, 184, 52);
+  color:rgb(194, 184, 52);
+}
+
+.content i {
+  font-size: 25px;
+  position: relative;
+  left: 670px;
+  top: 40px;
+}
+main{
+  /* border: 2px solid green; */
+  height: 330px;
+}
+.main{
+  height: 100%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.items{
+  /* border: 2px solid red; */
+  width: 22%;
+  height: 80%;
+}
+.img{
+  /* border: 2px solid yellow; */
+  height: 40%;
+}
+.info{
+  /* border: 2px solid pink; */
+  height: 60%;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+.info h3 , .info p{
+  color: black;
+  margin-top: 18px;
+}
+.info h3{
+  margin-top: 10px;
+  font-size: 20px;
+}
+#img1{
+  background: url(images/creative\ concept.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#img2{
+  background: url(images/creative\ design.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#img3{
+  background: url(images/cost\ effective.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#img4{
+  background: url(images/effective.png) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
